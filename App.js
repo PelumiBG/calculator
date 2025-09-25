@@ -9,7 +9,7 @@ import { fileURLToPath } from "url";
 import readline from 'readline-sync';
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.basename(__filename);
 console.log(`Current directory: ${__dirname}`);
 
 console.log(chalk.bold.red('My Calculator App!'));
